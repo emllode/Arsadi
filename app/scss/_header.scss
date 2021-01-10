@@ -1,0 +1,63 @@
+.header {
+
+    nav {
+        padding: 1.3rem 1.2rem;
+
+    }
+
+    &-logo {
+
+        img {
+
+           background-color: black; 
+           width: 8.8125rem;
+           height: 2.35rem;
+        }
+
+
+    
+    }
+
+    &-menu { //mobile menu
+
+
+        > span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkBlue;
+
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        
+
+        }
+    }
+
+    &-links {
+        
+        a {
+                font-size: $font-sm;
+                color: $grayishBlue;
+                transition: color 200ms ease-in-out;
+
+                &:not(:last-child){
+                    margin-right: 32px;
+                }
+                
+                &:hover {
+                    color: $darkBlue;
+                }
+        }
+    }
+    &-cta {
+        font-size: $font-sm;
+        color: $white;
+        transition: opacity 300ms ease-in-out;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
