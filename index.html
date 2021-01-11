@@ -14,58 +14,93 @@
     <!-- Header -->
 
     <header class="header">
-      <div class="overlay"></div>
-      <nav class="flex flex-jc-sb flex-ai-c">
+      <div class="overlay has-fade"></div>
+  
+      <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+          <a href="/" class="header__logo">
+            <img src=".img" alt="Arsadi" style="margin-left: 1.5em;" />
+          </a>
+  
+          <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+  
+          <div class="header__links hide-for-mobile">
+            <a href="#">Home</a><a href="#">Contact</a><a href="#">Music & Videos</a><a href="#">Merch</a><a href="#">About</a>
+          </div>
+  
+          <a href="#" class="button header__cta hide-for-mobile" style="margin-right: 1.5em;">Listen to us</a>
+      </nav>
 
-      <!-- img logo -->
-      <a href="/" class="header-logo">
-        <img src="https://images.squarespace-cdn.com/content/5d067b96143760000132d813/1564601198883-NL1S6O3YE3M1IR6HWALI/white+logo-01.png?format=1500w&content-type=image%2Fpng" alt="Arsadi" class="logo"/>
-      </a>
-
-      <!-- Hamburger menu -->
-      <a id="btnHamburger" href="#" class="header-menu hide-for-deskop">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-
-           <!-- Regular menu  -->
-      <div class="header-links hide-for-mobile">
-        <a href="#">Home</a:links>
-        <a href="#">Music & Videos</a:links>
-        <a href="#">Press</a:links>
-        <a href="#">Live</a:links>
-        <a href="#">Merch</a:links>
-        <a href="#">About</a:links>
-        <a href="#">Contact</a:links>
+      <div class="header__menu has-fade"> 
+        <a href="#">Home</a>
+        <a href="#">Music & Videos</a>
+        <a href="#">Merch</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
       </div>
-
-      <a  href="#" class="button header-cta hide-for-mobile">Listen to music</a>
-
-
+  
+  
 
     </header>
-      <!-- 
-
-    <!-- Hero section 
-
- 
-      
-      <div class="hero-img">
+  
+    <section class="hero__text ">
+      <div class="hero__image" src="https://images.squarespace-cdn.com/content/v1/5d067b96143760000132d813/1564676793135-BUZV12KZKJ9J9WLRSKQD/ke17ZwdGBToddI8pDm48kGPVK--wGoWXJsqwlxbZlQN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5enfxu_O4VeONvneR-F6W8oeFhFqSrYyNrfPB9Y70_gvQ/DSC08336.jpg?format=2500w">
 
       </div>
+      <div class="hero__text container">
+       
+        <h1>The best pop group at Uppsala, Sweden.</h1>
 
-      <div class="hero-text">
-        <h1>
-          The music band ARSADI
-        </h1>
         <p>
           ARSADI is a Swedish pop group formed in 2016 at Uppsala, Sweden. ARSADI made their live debut only a month after forming the band and has played a lot ever since. At their latest live show at Emergenza Stockholm.
         </p>
-        <a href="#" class="button hero-cta">Read more</a>
+
+        <a href="#" class="button hero__cta">Read More</a>
       </div>
+
+
     </section>
--->
+
+    <section class="feature container container-pall">
+
+      <div class="feature__grid">
+        <div class="feature__item">
+          <div class="feature__icon"><img src="/images/merch-image.png" style="width:7em; height:8em;">
+          <div class="feature__description">
+            <h2>Location</h2>
+           <p>Uppsala, Sweden</p>>
+          </div>
+        </div>
+      
+
+      
+      
+        <div class="feature__item">
+          <div class="feature__icon"><img src="/images/merch-image.png" style="width:7em; height:8em;">
+          <div class="feature__description">
+          <h2>Availablity</h2>
+          <p>Always</p>
+          </div>
+        </div>
+     
+
+      
+     
+        <div class="feature__item">
+          <div class="feature__icon"><img src="/images/merch-image.png" style="width:7em; height:8em;">
+          <div class="feature__description">
+            <h2>What type of band</h2>
+            <p>pop, indie</p>
+          </div>
+        </div>
+    </div>
+      
+
+
+    </section>
   
 
     <script src="/app/js/script.js"></script>
