@@ -279,6 +279,7 @@ button:hover::before, .button:hover::before {
 }
 
 .header {
+  background-color: #f3f4f6;
   position: relative;
   z-index: 1;
 }
@@ -310,7 +311,7 @@ button:hover::before, .button:hover::before {
 
 .header nav {
   position: relative;
-  background-color: white;
+  background-color: #f3f4f6;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
 }
@@ -387,6 +388,7 @@ button:hover::before, .button:hover::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  position: relative;
   min-height: 17.5rem;
 }
 
@@ -424,6 +426,7 @@ button:hover::before, .button:hover::before {
 .feature {
   background-color: #f3f4f6;
   text-align: center;
+  /*Incase you want to have a intro part on your social media feed */
 }
 
 @media (min-width: 40em) {
@@ -449,9 +452,6 @@ button:hover::before, .button:hover::before {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
   }
 }
 
@@ -497,6 +497,7 @@ button:hover::before, .button:hover::before {
   .feature__title {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    margin-left: 1.7rem;
   }
 }
 
