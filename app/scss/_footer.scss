@@ -3,29 +3,72 @@
     background-color: $darkBlue;
     color:$white;
 
+    
     a{
         color: $white;
     }
    
     &__logo {
         margin-bottom: 1.875rem;
-
+   
     }
 
     &__social{
-        max-width: 3rem;
+        display: grid; 
+        max-width: 20rem;
         margin-bottom: 1.875rem;
+        align-items: center;
+        gap: 20px;
+      
+        
+        @include breakpoint-down(medium) {
+            max-width: 8rem;
+        }
+        
+        @include breakpoint-down(small) {
+            max-width: 4rem;
+        }
+                  
+        @include breakpoint-up(medium) {
+            grid-template-columns: repeat(2, 1fr);
+            
+        }
+
+        @include breakpoint-up(large) {
+            grid-template-columns: repeat(4, 1fr);
+            margin-left: 57rem;;
+        }
    
     }
 
     &__links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9375rem;
 
         &.col1 {
 
-        }
-        &.col2 {
+            @include breakpoint-up(medium) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+    
+            @include breakpoint-up(large) {
+                grid-template-columns: repeat(4, 1fr);
+            }
 
         }
+        &.col2 {
+            @include breakpoint-up(medium) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+    
+            @include breakpoint-up(large) {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+        }
+    
 
     }
 
