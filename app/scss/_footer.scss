@@ -1,0 +1,32 @@
+.footer {
+   
+    background-color: $darkBlue;
+    color:$white;
+
+    a{
+        color: $white;
+    }
+   
+    &__logo {
+        margin-bottom: 1.875rem;
+
+    }
+
+    &__social{
+        max-width: 3rem;
+        margin-bottom: 1.875rem;
+   
+    }
+
+    &__links{
+
+        &.col1 {
+
+        }
+        &.col2 {
+
+        }
+
+    }
+
+}
