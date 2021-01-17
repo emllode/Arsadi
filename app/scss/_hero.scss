@@ -3,9 +3,8 @@
     @include breakpoint-up(large){
         display: flex;
     }
-   
 
-
+ 
     &__image {
         background-image: url('/images/hero-image.jpg');
         background-size: cover;
