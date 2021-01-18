@@ -426,6 +426,7 @@ button:hover::before, .button:hover::before {
 .feature {
   background-color: #f3f4f6;
   text-align: center;
+  padding-top: 2rem;
 }
 
 .feature .title {
@@ -518,11 +519,12 @@ button:hover::before, .button:hover::before {
   font-size: 0.875rem;
   line-height: 1.5;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 .articles {
-  margin-top: 1.3rem;
-  margin-bottom: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .article__grid {
@@ -780,6 +782,7 @@ body {
 }
 
 .get-in-touch .title {
+  padding-top: 20rem;
   text-align: center;
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
@@ -849,10 +852,6 @@ body {
   cursor: pointer;
 }
 
-.heroAbout {
-  background-color: #f3f4f6;
-}
-
 .heroAbout h2 {
   width: 100%;
   text-align: center;
@@ -863,7 +862,7 @@ body {
 }
 
 .heroAbout h2 span {
-  background: #f3f4f6;
+  background: white;
   padding: 0 10px;
 }
 
@@ -883,6 +882,7 @@ body {
 }
 
 .reviews {
+  background-color: #f3f4f6;
   padding-top: 2.5rem;
 }
 
@@ -896,7 +896,7 @@ body {
 }
 
 .reviews h2 span {
-  background: #fff;
+  background: #f3f4f6;
   padding: 0 10px;
 }
 
@@ -920,5 +920,68 @@ body {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
   }
+}
+
+.Youtubearticles {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Youtubearticles h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 28px;
+}
+
+.Youtubearticles h2 span {
+  background: white;
+  padding: 0 10px;
+}
+
+.Youtubearticles__text {
+  text-align: center;
+}
+
+.Youtubearticles__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 1.875rem;
+}
+
+@media (min-width: 40em) {
+  .Youtubearticles__grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.spotify {
+  background-color: #f3f4f6;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.spotify h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 28px;
+}
+
+.spotify h2 span {
+  background: #f3f4f6;
+  padding: 0 10px;
+}
+
+.spotify__text {
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
