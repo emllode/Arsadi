@@ -1,0 +1,37 @@
+.heroAbout {
+
+    background-color: $lightGrayishBlue;
+
+    
+    h2 {
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+        font-size: 28px;
+     } 
+     
+     h2 span { 
+         background: $lightGrayishBlue;
+         padding:0 10px; 
+     }
+
+   
+    &__image {
+        background-image: url('/images/tour-image.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        min-height: 25.5rem;     
+        width: 100%;
+    }
+
+    &__headerText {
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+}
+

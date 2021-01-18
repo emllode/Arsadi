@@ -848,4 +848,77 @@ body {
   border: none;
   cursor: pointer;
 }
+
+.heroAbout {
+  background-color: #f3f4f6;
+}
+
+.heroAbout h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 28px;
+}
+
+.heroAbout h2 span {
+  background: #f3f4f6;
+  padding: 0 10px;
+}
+
+.heroAbout__image {
+  background-image: url("/images/tour-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  min-height: 25.5rem;
+  width: 100%;
+}
+
+.heroAbout__headerText {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.reviews {
+  padding-top: 2.5rem;
+}
+
+.reviews h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 28px;
+}
+
+.reviews h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+@media (min-width: 40em) {
+  .reviews__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.reviews__articleText {
+  padding: 0.9375rem;
+}
+
+@media (min-width: 40em) {
+  .reviews__articleText {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

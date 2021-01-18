@@ -1,0 +1,41 @@
+.reviews {
+
+  
+    padding-top: 2.5rem;
+
+    h2 {
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+        font-size: 28px;
+     } 
+     
+     h2 span { 
+         background:#fff; 
+         padding:0 10px; 
+     }
+
+
+
+     &__items {
+
+        @include breakpoint-up(medium){
+            display: flex;
+            flex-wrap: wrap;     
+          }
+     }
+
+     &__articleText {
+        padding: 0.9375rem;
+
+        @include breakpoint-up(medium){
+          flex: 0 0 50%;
+        }
+      }
+}
+
+   
+
+    
