@@ -33,4 +33,4 @@ $( '.js-input' ).keyup(function() {
   } else {
      $(this).removeClass('not-empty');
   }
-});
+}); 

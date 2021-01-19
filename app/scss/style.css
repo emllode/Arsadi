@@ -905,14 +905,12 @@ body {
   padding: 0 10px;
 }
 
-@media (min-width: 40em) {
-  .reviews__items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+.reviews__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .reviews__articleText {
@@ -988,5 +986,55 @@ body {
 
 .spotify__text {
   padding-bottom: 2rem;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 28px;
+  padding-top: 3rem;
+}
+
+h2 span {
+  background: white;
+  padding: 0 10px;
+}
+
+.merch__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 40em) {
+  .merch {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+}
+
+.merch__tshirts {
+  padding: 0.9375rem;
+}
+
+.merch__tshirts img {
+  max-width: 28rem;
+}
+
+.merch__bags {
+  padding: 0.9375rem;
+}
+
+.merch__bags img {
+  max-width: 28rem;
 }
 /*# sourceMappingURL=style.css.map */
