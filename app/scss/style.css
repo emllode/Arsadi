@@ -881,6 +881,11 @@ body {
   padding-top: 1.5rem;
 }
 
+.heroAbout__spotify {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 .reviews {
   background-color: #f3f4f6;
   padding-top: 2.5rem;
